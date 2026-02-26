@@ -4,6 +4,8 @@ import Foundation
 final class AppStore: ObservableObject {
     @Published var preferredMinutes: Int = 10
     @Published var selectedTopicID: String = "ai"
+    @Published var selectedTopicLabel: String = "Artificial Intelligence"
+    @Published var topicPrompt: String = ""
     @Published var randomTopicMode: Bool = false
     @Published var sessions: [ReadingSession] = []
 
@@ -219,6 +221,60 @@ final class AppStore: ObservableObject {
 
     func topicName(for id: String) -> String {
         topics.first(where: { $0.id == id })?.name ?? id.capitalized
+    }
+
+    func applyTopicPrompt() {
+        let trimmed = topicPrompt.trimmingCharacters(in: .whitespacesAndNewlines)
+        let normalized = trimmed.lowercased()
+
+        if normalized.isEmpty {
+            randomTopicMode = true
+            selectedTopicLabel = "Random"
+            return
+        }
+
+        if normalized == "random" || normalized.contains("surprise") {
+            randomTopicMode = true
+            selectedTopicLabel = "Random"
+            return
+        }
+
+        randomTopicMode = false
+        selectedTopicLabel = trimmed
+
+        if let directMatch = topics.first(where: {
+            normalized == $0.id || normalized == $0.name.lowercased()
+        }) {
+            selectedTopicID = directMatch.id
+            return
+        }
+
+        if let containsMatch = topics.first(where: {
+            normalized.contains($0.id) || normalized.contains($0.name.lowercased())
+        }) {
+            selectedTopicID = containsMatch.id
+            return
+        }
+
+        let keywordMap: [(String, String)] = [
+            ("history", "history"),
+            ("roman", "history"),
+            ("ancient", "history"),
+            ("sleep", "health"),
+            ("fitness", "health"),
+            ("health", "health"),
+            ("design", "design"),
+            ("ui", "design"),
+            ("space", "space"),
+            ("nasa", "space"),
+            ("ai", "ai"),
+            ("machine learning", "ai"),
+            ("technology", "ai")
+        ]
+
+        if let mapped = keywordMap.first(where: { normalized.contains($0.0) }) {
+            selectedTopicID = mapped.1
+        }
     }
 
     private func topicScore(for article: Article, topicID: String) -> Double {
