@@ -50,6 +50,21 @@ struct DailyFeedView: View {
                     }
                 }
             }
+
+            Section("Reader Demo") {
+                NavigationLink {
+                    ReadSessionView(article: ArticleMockData.mockArticle)
+                } label: {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("Open local mock article")
+                            .font(.headline)
+                        Text("Use this to test PDF generation and in-app reading without web access.")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    }
+                    .padding(.vertical, 4)
+                }
+            }
         }
         .navigationTitle("Daily")
     }

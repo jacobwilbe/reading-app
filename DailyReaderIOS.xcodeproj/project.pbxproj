@@ -16,6 +16,17 @@
 		A10000070000000000000001 /* ReadSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000170000000000000001 /* ReadSessionView.swift */; };
 		A10000080000000000000001 /* WeeklyWrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000180000000000000001 /* WeeklyWrapView.swift */; };
 		A10000090000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000190000000000000001 /* Assets.xcassets */; };
+		A100000A0000000000000001 /* ProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001A0000000000000001 /* ProfileModels.swift */; };
+		A100000B0000000000000001 /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001B0000000000000001 /* ProfileStore.swift */; };
+		A100000C0000000000000001 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001C0000000000000001 /* ProfileViewModel.swift */; };
+		A100000D0000000000000001 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001D0000000000000001 /* ProfileView.swift */; };
+		A100000E0000000000000001 /* ArticleMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001E0000000000000001 /* ArticleMockData.swift */; };
+		A100000F0000000000000001 /* ArticleContentFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F0000000000000001 /* ArticleContentFetcher.swift */; };
+		A100001E0000000000000002 /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F0000000000000002 /* PDFGenerator.swift */; };
+		A100002B0000000000000001 /* PDFKitViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F0000000000000003 /* PDFKitViewRepresentable.swift */; };
+		A100002A0000000000000001 /* PDFReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F0000000000000004 /* PDFReaderView.swift */; };
+		A100003A0000000000000001 /* ReaderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100003C0000000000000001 /* ReaderSettings.swift */; };
+		A100003B0000000000000001 /* ReaderAppearanceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100003D0000000000000001 /* ReaderAppearanceSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +40,17 @@
 		A10000170000000000000001 /* ReadSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadSessionView.swift; sourceTree = "<group>"; };
 		A10000180000000000000001 /* WeeklyWrapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyWrapView.swift; sourceTree = "<group>"; };
 		A10000190000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A100001A0000000000000001 /* ProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModels.swift; sourceTree = "<group>"; };
+		A100001B0000000000000001 /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
+		A100001C0000000000000001 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		A100001D0000000000000001 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A100001E0000000000000001 /* ArticleMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleMockData.swift; sourceTree = "<group>"; };
+		A100001F0000000000000001 /* ArticleContentFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleContentFetcher.swift; sourceTree = "<group>"; };
+		A100001F0000000000000002 /* PDFGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGenerator.swift; sourceTree = "<group>"; };
+		A100001F0000000000000003 /* PDFKitViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitViewRepresentable.swift; sourceTree = "<group>"; };
+		A100001F0000000000000004 /* PDFReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderView.swift; sourceTree = "<group>"; };
+		A100003C0000000000000001 /* ReaderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderSettings.swift; sourceTree = "<group>"; };
+		A100003D0000000000000001 /* ReaderAppearanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderAppearanceSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +79,7 @@
 				A10000120000000000000001 /* AppStore.swift */,
 				A10000130000000000000001 /* Models.swift */,
 				A10000330000000000000001 /* Views */,
+				A10000340000000000000001 /* Features */,
 				A10000190000000000000001 /* Assets.xcassets */,
 			);
 			path = DailyReaderIOS;
@@ -80,6 +103,40 @@
 				A10000180000000000000001 /* WeeklyWrapView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A10000340000000000000001 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A10000350000000000000001 /* Profile */,
+				A10000360000000000000001 /* Reader */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A10000350000000000000001 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A100001A0000000000000001 /* ProfileModels.swift */,
+				A100001B0000000000000001 /* ProfileStore.swift */,
+				A100001C0000000000000001 /* ProfileViewModel.swift */,
+				A100001D0000000000000001 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A10000360000000000000001 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				A100001E0000000000000001 /* ArticleMockData.swift */,
+				A100001F0000000000000001 /* ArticleContentFetcher.swift */,
+				A100001F0000000000000002 /* PDFGenerator.swift */,
+				A100001F0000000000000003 /* PDFKitViewRepresentable.swift */,
+				A100001F0000000000000004 /* PDFReaderView.swift */,
+				A100003C0000000000000001 /* ReaderSettings.swift */,
+				A100003D0000000000000001 /* ReaderAppearanceSettingsView.swift */,
+			);
+			path = Reader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,16 +207,27 @@
 		A10000500000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = (
-				A10000010000000000000001 /* DailyReaderIOSApp.swift in Sources */,
-				A10000020000000000000001 /* AppStore.swift in Sources */,
-				A10000030000000000000001 /* Models.swift in Sources */,
-				A10000040000000000000001 /* ContentView.swift in Sources */,
-				A10000050000000000000001 /* OnboardingView.swift in Sources */,
-				A10000060000000000000001 /* DailyFeedView.swift in Sources */,
-				A10000070000000000000001 /* ReadSessionView.swift in Sources */,
-				A10000080000000000000001 /* WeeklyWrapView.swift in Sources */,
-			);
+				files = (
+					A10000010000000000000001 /* DailyReaderIOSApp.swift in Sources */,
+					A10000020000000000000001 /* AppStore.swift in Sources */,
+					A10000030000000000000001 /* Models.swift in Sources */,
+					A10000040000000000000001 /* ContentView.swift in Sources */,
+					A10000050000000000000001 /* OnboardingView.swift in Sources */,
+					A10000060000000000000001 /* DailyFeedView.swift in Sources */,
+					A10000070000000000000001 /* ReadSessionView.swift in Sources */,
+					A10000080000000000000001 /* WeeklyWrapView.swift in Sources */,
+					A100000A0000000000000001 /* ProfileModels.swift in Sources */,
+					A100000B0000000000000001 /* ProfileStore.swift in Sources */,
+					A100000C0000000000000001 /* ProfileViewModel.swift in Sources */,
+					A100000D0000000000000001 /* ProfileView.swift in Sources */,
+					A100000E0000000000000001 /* ArticleMockData.swift in Sources */,
+					A100000F0000000000000001 /* ArticleContentFetcher.swift in Sources */,
+					A100001E0000000000000002 /* PDFGenerator.swift in Sources */,
+					A100002B0000000000000001 /* PDFKitViewRepresentable.swift in Sources */,
+					A100002A0000000000000001 /* PDFReaderView.swift in Sources */,
+					A100003A0000000000000001 /* ReaderSettings.swift in Sources */,
+					A100003B0000000000000001 /* ReaderAppearanceSettingsView.swift in Sources */,
+				);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
