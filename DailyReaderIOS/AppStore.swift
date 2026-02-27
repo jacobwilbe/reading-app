@@ -105,6 +105,17 @@ final class AppStore: ObservableObject {
             freshnessScore: 0.89,
             qualityScore: 0.82,
             summary: "How low-earth orbit networks influence navigation, weather, and internet coverage."
+        ),
+        Article(
+            id: ArticleMockData.mockArticle.id,
+            title: ArticleMockData.mockArticle.title,
+            sourceName: ArticleMockData.mockArticle.sourceName,
+            sourceURL: ArticleMockData.mockArticle.sourceURL,
+            topicIDs: ArticleMockData.mockArticle.topicIDs,
+            estimatedMinutes: ArticleMockData.mockArticle.estimatedMinutes,
+            freshnessScore: ArticleMockData.mockArticle.freshnessScore,
+            qualityScore: ArticleMockData.mockArticle.qualityScore,
+            summary: ArticleMockData.mockArticle.summary
         )
     ]
 
@@ -163,13 +174,36 @@ final class AppStore: ObservableObject {
 
     func markArticleCompleted(_ article: Article) {
         let now = Date()
+        let estimatedWords = max(1, (article.summary + " " + article.title).split(whereSeparator: \.isWhitespace).count)
         sessions.insert(
             ReadingSession(
                 id: UUID().uuidString,
                 articleID: article.id,
+                articleURL: article.sourceURL,
                 startedAt: now,
                 completedAt: now,
+                durationSeconds: max(60, article.estimatedMinutes * 60),
                 minutesSpent: article.estimatedMinutes,
+                wordCount: estimatedWords,
+                status: .completed
+            ),
+            at: 0
+        )
+    }
+
+    func logInAppRead(article: Article, durationSeconds: Int, wordCount: Int) {
+        let now = Date()
+        let minutes = max(1, Int(round(Double(durationSeconds) / 60.0)))
+        sessions.insert(
+            ReadingSession(
+                id: UUID().uuidString,
+                articleID: article.id,
+                articleURL: article.sourceURL,
+                startedAt: now.addingTimeInterval(-TimeInterval(durationSeconds)),
+                completedAt: now,
+                durationSeconds: durationSeconds,
+                minutesSpent: minutes,
+                wordCount: wordCount,
                 status: .completed
             ),
             at: 0

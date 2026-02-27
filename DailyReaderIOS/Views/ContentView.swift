@@ -23,6 +23,13 @@ struct ContentView: View {
             .tabItem {
                 Label("Weekly", systemImage: "chart.bar.doc.horizontal")
             }
+
+            NavigationStack {
+                ProfileView()
+            }
+            .tabItem {
+                Label("Profile", systemImage: "person.circle")
+            }
         }
         .tint(Color("AccentColor"))
     }
