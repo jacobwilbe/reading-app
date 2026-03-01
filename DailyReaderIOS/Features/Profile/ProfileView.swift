@@ -8,6 +8,7 @@ struct ProfileView: View {
     @State private var showEditProfile = false
     @State private var showReaderAppearance = false
     @ObservedObject private var readerSettings = ReaderSettingsStore.shared
+    @AppStorage(RecommendationsUserSettings.wpmKey) private var recommendationsWPM: Int = ReadingSpeedSettings.defaultWPM
 
     var body: some View {
         Group {
@@ -294,6 +295,21 @@ struct ProfileView: View {
                 ),
                 displayedComponents: .hourAndMinute
             )
+
+            Divider()
+
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Reading speed baseline")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                Slider(value: Binding(
+                    get: { Double(recommendationsWPM) },
+                    set: { recommendationsWPM = Int($0.rounded()) }
+                ), in: 120...400, step: 5)
+                Text("\(recommendationsWPM) words per minute")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
 
             Divider()
 

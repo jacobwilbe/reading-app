@@ -27,6 +27,23 @@
 		A100002A0000000000000001 /* PDFReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100001F0000000000000004 /* PDFReaderView.swift */; };
 		A100003A0000000000000001 /* ReaderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100003C0000000000000001 /* ReaderSettings.swift */; };
 		A100003B0000000000000001 /* ReaderAppearanceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100003D0000000000000001 /* ReaderAppearanceSettingsView.swift */; };
+		A100003E0000000000000001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100003F0000000000000001 /* LaunchScreen.storyboard */; };
+		A10001010000000000000001 /* RecommendationsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002010000000000000001 /* RecommendationsModels.swift */; };
+		A10001020000000000000001 /* ReadingSpeedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002020000000000000001 /* ReadingSpeedSettings.swift */; };
+		A10001030000000000000001 /* TextExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002030000000000000001 /* TextExtraction.swift */; };
+		A10001040000000000000001 /* RecommendationsConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002040000000000000001 /* RecommendationsConnector.swift */; };
+		A10001050000000000000001 /* MediaWikiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002050000000000000001 /* MediaWikiModels.swift */; };
+		A10001060000000000000001 /* WikipediaConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002060000000000000001 /* WikipediaConnector.swift */; };
+		A10001070000000000000001 /* WikisourceConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002070000000000000001 /* WikisourceConnector.swift */; };
+		A10001080000000000000001 /* InternetArchiveConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002080000000000000001 /* InternetArchiveConnector.swift */; };
+		A10001090000000000000001 /* ChroniclingAmericaConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002090000000000000001 /* ChroniclingAmericaConnector.swift */; };
+		A100010A0000000000000001 /* RecommendationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020A0000000000000001 /* RecommendationsService.swift */; };
+		A100010B0000000000000001 /* RecommendationsUserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020B0000000000000001 /* RecommendationsUserSettings.swift */; };
+		A100010C0000000000000001 /* RecommendationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020C0000000000000001 /* RecommendationsViewModel.swift */; };
+		A100010D0000000000000001 /* InAppBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020D0000000000000001 /* InAppBrowserView.swift */; };
+		A100010E0000000000000001 /* RecommendationResultCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020E0000000000000001 /* RecommendationResultCardView.swift */; };
+		A100010F0000000000000001 /* RecommendationsResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100020F0000000000000001 /* RecommendationsResultsView.swift */; };
+		A10001100000000000000001 /* RecommendationsInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10002100000000000000001 /* RecommendationsInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +68,23 @@
 		A100001F0000000000000004 /* PDFReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderView.swift; sourceTree = "<group>"; };
 		A100003C0000000000000001 /* ReaderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderSettings.swift; sourceTree = "<group>"; };
 		A100003D0000000000000001 /* ReaderAppearanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderAppearanceSettingsView.swift; sourceTree = "<group>"; };
+		A100003F0000000000000001 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A10002010000000000000001 /* RecommendationsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsModels.swift; sourceTree = "<group>"; };
+		A10002020000000000000001 /* ReadingSpeedSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingSpeedSettings.swift; sourceTree = "<group>"; };
+		A10002030000000000000001 /* TextExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtraction.swift; sourceTree = "<group>"; };
+		A10002040000000000000001 /* RecommendationsConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsConnector.swift; sourceTree = "<group>"; };
+		A10002050000000000000001 /* MediaWikiModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaWikiModels.swift; sourceTree = "<group>"; };
+		A10002060000000000000001 /* WikipediaConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaConnector.swift; sourceTree = "<group>"; };
+		A10002070000000000000001 /* WikisourceConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikisourceConnector.swift; sourceTree = "<group>"; };
+		A10002080000000000000001 /* InternetArchiveConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetArchiveConnector.swift; sourceTree = "<group>"; };
+		A10002090000000000000001 /* ChroniclingAmericaConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChroniclingAmericaConnector.swift; sourceTree = "<group>"; };
+		A100020A0000000000000001 /* RecommendationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsService.swift; sourceTree = "<group>"; };
+		A100020B0000000000000001 /* RecommendationsUserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsUserSettings.swift; sourceTree = "<group>"; };
+		A100020C0000000000000001 /* RecommendationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsViewModel.swift; sourceTree = "<group>"; };
+		A100020D0000000000000001 /* InAppBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppBrowserView.swift; sourceTree = "<group>"; };
+		A100020E0000000000000001 /* RecommendationResultCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationResultCardView.swift; sourceTree = "<group>"; };
+		A100020F0000000000000001 /* RecommendationsResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsResultsView.swift; sourceTree = "<group>"; };
+		A10002100000000000000001 /* RecommendationsInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +112,7 @@
 				A10000110000000000000001 /* DailyReaderIOSApp.swift */,
 				A10000120000000000000001 /* AppStore.swift */,
 				A10000130000000000000001 /* Models.swift */,
+				A100003F0000000000000001 /* LaunchScreen.storyboard */,
 				A10000330000000000000001 /* Views */,
 				A10000340000000000000001 /* Features */,
 				A10000190000000000000001 /* Assets.xcassets */,
@@ -110,6 +145,7 @@
 			children = (
 				A10000350000000000000001 /* Profile */,
 				A10000360000000000000001 /* Reader */,
+				A10003010000000000000001 /* Recommendations */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -137,6 +173,29 @@
 				A100003D0000000000000001 /* ReaderAppearanceSettingsView.swift */,
 			);
 			path = Reader;
+			sourceTree = "<group>";
+		};
+		A10003010000000000000001 /* Recommendations */ = {
+			isa = PBXGroup;
+			children = (
+				A10002010000000000000001 /* RecommendationsModels.swift */,
+				A10002020000000000000001 /* ReadingSpeedSettings.swift */,
+				A10002030000000000000001 /* TextExtraction.swift */,
+				A10002040000000000000001 /* RecommendationsConnector.swift */,
+				A10002050000000000000001 /* MediaWikiModels.swift */,
+				A10002060000000000000001 /* WikipediaConnector.swift */,
+				A10002070000000000000001 /* WikisourceConnector.swift */,
+				A10002080000000000000001 /* InternetArchiveConnector.swift */,
+				A10002090000000000000001 /* ChroniclingAmericaConnector.swift */,
+				A100020A0000000000000001 /* RecommendationsService.swift */,
+				A100020B0000000000000001 /* RecommendationsUserSettings.swift */,
+				A100020C0000000000000001 /* RecommendationsViewModel.swift */,
+				A100020D0000000000000001 /* InAppBrowserView.swift */,
+				A100020E0000000000000001 /* RecommendationResultCardView.swift */,
+				A100020F0000000000000001 /* RecommendationsResultsView.swift */,
+				A10002100000000000000001 /* RecommendationsInputView.swift */,
+			);
+			path = Recommendations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A100003E0000000000000001 /* LaunchScreen.storyboard in Resources */,
 				A10000090000000000000001 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +287,22 @@
 					A100002A0000000000000001 /* PDFReaderView.swift in Sources */,
 					A100003A0000000000000001 /* ReaderSettings.swift in Sources */,
 					A100003B0000000000000001 /* ReaderAppearanceSettingsView.swift in Sources */,
+					A10001010000000000000001 /* RecommendationsModels.swift in Sources */,
+					A10001020000000000000001 /* ReadingSpeedSettings.swift in Sources */,
+					A10001030000000000000001 /* TextExtraction.swift in Sources */,
+					A10001040000000000000001 /* RecommendationsConnector.swift in Sources */,
+					A10001050000000000000001 /* MediaWikiModels.swift in Sources */,
+					A10001060000000000000001 /* WikipediaConnector.swift in Sources */,
+					A10001070000000000000001 /* WikisourceConnector.swift in Sources */,
+					A10001080000000000000001 /* InternetArchiveConnector.swift in Sources */,
+					A10001090000000000000001 /* ChroniclingAmericaConnector.swift in Sources */,
+					A100010A0000000000000001 /* RecommendationsService.swift in Sources */,
+					A100010B0000000000000001 /* RecommendationsUserSettings.swift in Sources */,
+					A100010C0000000000000001 /* RecommendationsViewModel.swift in Sources */,
+					A100010D0000000000000001 /* InAppBrowserView.swift in Sources */,
+					A100010E0000000000000001 /* RecommendationResultCardView.swift in Sources */,
+					A100010F0000000000000001 /* RecommendationsResultsView.swift in Sources */,
+					A10001100000000000000001 /* RecommendationsInputView.swift in Sources */,
 				);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +381,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -336,7 +413,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;

@@ -1,0 +1,30 @@
+{
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Recommendations/MediaWikiModels.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/MediaWikiModels.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/MediaWikiModels.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/MediaWikiModels.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/MediaWikiModels.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/MediaWikiModels.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Recommendations/ReadingSpeedSettings.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ReadingSpeedSettings.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ReadingSpeedSettings.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ReadingSpeedSettings.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ReadingSpeedSettings.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ReadingSpeedSettings.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Recommendations/RecommendationsConnector.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsConnector.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsConnector.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsConnector.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsConnector.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsConnector.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Recommendations/TextExtraction.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/TextExtraction.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/TextExtraction.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/TextExtraction.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/TextExtraction.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/TextExtraction.swiftdeps"
+  }
+}

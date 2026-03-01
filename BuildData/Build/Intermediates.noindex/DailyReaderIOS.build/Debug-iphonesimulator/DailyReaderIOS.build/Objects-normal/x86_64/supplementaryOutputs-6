@@ -1,0 +1,37 @@
+{
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Profile/ProfileView.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileView.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileView.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileView.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileView.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileView.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Profile/ProfileViewModel.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileViewModel.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileViewModel.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileViewModel.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileViewModel.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ProfileViewModel.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Reader/ArticleContentFetcher.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleContentFetcher.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleContentFetcher.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleContentFetcher.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleContentFetcher.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleContentFetcher.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Reader/ArticleMockData.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleMockData.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleMockData.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleMockData.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleMockData.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/ArticleMockData.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Reader/PDFGenerator.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/PDFGenerator.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/PDFGenerator.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/PDFGenerator.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/PDFGenerator.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/PDFGenerator.swiftdeps"
+  }
+}

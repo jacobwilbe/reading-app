@@ -1,0 +1,63 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "468d96af1f1783506d423e8201260b9c491a7134f20eba90981bf643896967bb"
+    }
+  ],
+  "containerPath" : "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator26.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "i386",
+        "x86_64"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Products",
+      "derivedDataPath" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData",
+      "indexDataStoreFolderPath" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "SDKROOT" : "iphonesimulator26.2"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

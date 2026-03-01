@@ -2,7 +2,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     @EnvironmentObject private var store: AppStore
-    @State private var showDailyFeed = false
+    @State private var showRecommendations = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -40,7 +40,7 @@ struct OnboardingView: View {
 
                 Button {
                     store.applyTopicPrompt()
-                    showDailyFeed = true
+                    showRecommendations = true
                 } label: {
                     Text("Generate")
                         .frame(maxWidth: .infinity)
@@ -53,8 +53,12 @@ struct OnboardingView: View {
             .padding(.bottom, 12)
             .background(.ultraThinMaterial)
         }
-        .navigationDestination(isPresented: $showDailyFeed) {
-            DailyFeedView()
+        .navigationDestination(isPresented: $showRecommendations) {
+            RecommendationsInputView(
+                initialTopic: store.topicPrompt,
+                initialMinutes: store.preferredMinutes,
+                autoSearchOnAppear: true
+            )
         }
         .navigationTitle("Plan")
     }

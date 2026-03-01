@@ -1,5 +1,4 @@
-
-# Xcode user-specific
+# Xcode user-specific workspace state
 **/xcuserdata/
 **/*.xcuserstate
 *.xcuserdatad/

@@ -1,0 +1,30 @@
+{
+  "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Recommendations/RecommendationResultCardView.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationResultCardView.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationResultCardView.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationResultCardView.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationResultCardView.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationResultCardView.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Recommendations/RecommendationsInputView.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsInputView.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsInputView.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsInputView.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsInputView.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsInputView.swiftdeps"
+  },
+  "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Recommendations/RecommendationsResultsView.swift" : {
+    "const-values" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsResultsView.swiftconstvalues",
+    "dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsResultsView.d",
+    "diagnostics" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsResultsView.dia",
+    "object" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsResultsView.o",
+    "swift-dependencies" : "/Users/paulrizzo/Documents/reading-app/reading-app/BuildData/Build/Intermediates.noindex/DailyReaderIOS.build/Debug-iphonesimulator/DailyReaderIOS.build/Objects-normal/x86_64/RecommendationsResultsView.swiftdeps"
+  }
+}

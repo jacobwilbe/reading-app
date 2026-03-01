@@ -1,0 +1,16 @@
+{
+  "source": "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Recommendations/RecommendationResultCardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 19
+        }
+      }
+    ]
+  },
+  "version": 1
+}
