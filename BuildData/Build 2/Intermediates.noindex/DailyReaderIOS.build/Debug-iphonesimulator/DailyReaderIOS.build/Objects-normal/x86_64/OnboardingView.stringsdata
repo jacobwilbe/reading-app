@@ -1,0 +1,56 @@
+{
+  "source": "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Views/OnboardingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Plan",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "What do you want to read today?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reading time",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld minutes",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type a topic",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generate",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 45
+        }
+      }
+    ]
+  },
+  "version": 1
+}

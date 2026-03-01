@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>12</integer>
+	<key>logs</key>
+	<dict>
+		<key>633E69EA-3409-418A-B4C9-B8A8FDBD123F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>633E69EA-3409-418A-B4C9-B8A8FDBD123F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>28</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DailyReaderIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DailyReaderIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project DailyReaderIOS with scheme DailyReaderIOS and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>794022158.28954697</real>
+			<key>timeStoppedRecording</key>
+			<real>794022242.37323797</real>
+			<key>title</key>
+			<string>Building project DailyReaderIOS with scheme DailyReaderIOS and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>633E69EA-3409-418A-B4C9-B8A8FDBD123F</string>
+		</dict>
+		<key>BFB1C634-5F1A-464D-98AC-3DE6A618947C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BFB1C634-5F1A-464D-98AC-3DE6A618947C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>56</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DailyReaderIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DailyReaderIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project DailyReaderIOS with scheme DailyReaderIOS and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>794021430.58660495</real>
+			<key>timeStoppedRecording</key>
+			<real>794021440.05728102</real>
+			<key>title</key>
+			<string>Building project DailyReaderIOS with scheme DailyReaderIOS and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>BFB1C634-5F1A-464D-98AC-3DE6A618947C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

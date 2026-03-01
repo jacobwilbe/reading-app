@@ -1,0 +1,120 @@
+{
+  "source": "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Features/Recommendations/RecommendationsResultsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Best Matches",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recommendations",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Top 3",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Topic",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "Time available",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reading speed",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld wpm",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Searching free sources...",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "No matches under %lld minutes.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Try a broader topic or increase time.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Try again",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 93
+        }
+      }
+    ]
+  },
+  "version": 1
+}

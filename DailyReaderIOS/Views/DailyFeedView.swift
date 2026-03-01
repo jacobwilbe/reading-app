@@ -65,6 +65,21 @@ struct DailyFeedView: View {
                     .padding(.vertical, 4)
                 }
             }
+
+            Section("Search free sources") {
+                NavigationLink {
+                    RecommendationsInputView()
+                } label: {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("Find by time + subject")
+                            .font(.headline)
+                        Text("Search Wikisource, Wikipedia, Internet Archive, and LOC results that fit your reading time.")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    }
+                    .padding(.vertical, 4)
+                }
+            }
         }
         .navigationTitle("Daily")
     }

@@ -1,0 +1,72 @@
+{
+  "source": "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Views/ReadSessionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Reading",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Preparing reader...",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Read in app",
+        "location": {
+          "startingColumn": 74,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Logged for today",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mark as read",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Unable to open reader.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 92
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "source": "/Users/paulrizzo/Documents/reading-app/reading-app/DailyReaderIOS/Views/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Plan",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "Daily",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weekly",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Profile",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 31
+        }
+      }
+    ]
+  },
+  "version": 1
+}
