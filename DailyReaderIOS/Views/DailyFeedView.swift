@@ -9,7 +9,7 @@ struct DailyFeedView: View {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("\(store.preferredMinutes) minute session")
                         .font(.headline)
-                    Text(store.randomTopicMode ? "Random discovery mode" : "Focus: \(store.topicName(for: store.selectedTopicID))")
+                    Text(store.randomTopicMode ? "Random discovery mode" : "Focus: \(store.selectedTopicLabel)")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -48,6 +48,21 @@ struct DailyFeedView: View {
                         }
                         .padding(.vertical, 6)
                     }
+                }
+            }
+
+            Section("Reader Demo") {
+                NavigationLink {
+                    ReadSessionView(article: ArticleMockData.mockArticle)
+                } label: {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("Open local mock article")
+                            .font(.headline)
+                        Text("Use this to test PDF generation and in-app reading without web access.")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    }
+                    .padding(.vertical, 4)
                 }
             }
         }
