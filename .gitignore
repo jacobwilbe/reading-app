@@ -1,21 +1,16 @@
 # Xcode user/local state
 **/xcuserdata/
 **/*.xcuserstate
-<<<<<<< HEAD
-=======
 *.xcuserdatad/
 *.xcscmblueprint
 *.xccheckout
->>>>>>> 3a275eb (Stop tracking generated Xcode/build files)
 
 # Build artifacts
 BuildData/
 DerivedData/
 .build/
-<<<<<<< HEAD
-=======
 build/
 
 # macOS
 .DS_Store
->>>>>>> 3a275eb (Stop tracking generated Xcode/build files)
+*.xcuserdatad/
